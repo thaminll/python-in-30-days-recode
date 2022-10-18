@@ -28,3 +28,5 @@ print(type(person['skills']))
 person['skills'].append('network')
 print(person.values())
 print(person.items())
+person.pop('major')
+del person
